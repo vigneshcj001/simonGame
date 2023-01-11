@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simon-Game</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/favicon.ico">
+        <!-------------------------------------------------Font Awesome------------------------------------------>
+        <script src="https://kit.fontawesome.com/b6740e3d50.js" crossorigin="anonymous"></script>
+        <!----------------------------------------Google Fonts---------------------------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=MuseoModerno&family=Nunito+Sans&display=swap" rel="stylesheet">
+
+<body>
+
+        <!----------------------------------------Preloader---------------------------------------->
+        <div id="preloader">
+        </div>
+
+        <!----------------------------------------Instruction---------------------------------------->
+        <div class="instruction">
+                <button type="submit" class="button">Instruction</button>
+                <div class="popup" id="popup">
+                        <img src="images/guidebook.png" alt="instruction">
+                        <h2>Instruction</h2>
+                        <h3>Think fast . . . Simon says, “Repeat my flashing
+                            lights and sounds!”</h3>
+                        <ul>
+                                <li>Press any key to start</li>
+                                <li>Remember the patterns and Click them</li>
+                        </ul>
+                        <button  type="submit" class="button1">OK</button>
+                </div>
+        </div>
+        <!-----------------------------------------Logo-------------------------------------------------------->
+        <a href="#" class="title">Simon</a>
+        <!----------------------------------------Simon Game---------------------------------------------------->
+
+        <h1 id="heading">Press "S" key to Start</h1>
+        <div class="container">
+                <div class="row">
+                        <div type="button" class="btn red " id="red"></div>
+                        <div type="button" class="btn green " id="green"></div>
+                </div>
+                <div class="row">
+                        <div type="button" class="btn yellow " id="yellow">
+                        </div>
+                        <div type="button" class="btn blue " id="blue"></div>
+                </div>
+        </div>
+
+        <!------------------------------------------Footer-------------------------------------------------------->
+        <footer class="social-media">
+                <a href="https://www.linkedin.com/in/vigneshwaran-cj-4a9a27190">
+                        <i class="footer fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:vigneshcj001@gmail.com">
+                        <i class="footer fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://github.com/vigneshcj001">
+                        <i class="footer fa-brands fa-github"></i>
+                </a>
+                <p class="footer">© Copyright Simon</p>
+        </footer>
+
+        <!-------------------------------------Link from jQuery Google CDN--------------------------------------->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+        </script>
+
+        <script src="game.js"></script>
+
+</body>
+
+</html>
